@@ -14,9 +14,9 @@ Se utilizan las siguientes tecnologías y bibliotecas:
 - Bootstrap (4.6) y Datatables (https://datatables.net/)
 - Gestión de dependencias mediante npm
 
-## Requisitos
+## Requisitos de compilación
 
-Por lo tanto, para levantar y ejecutar el proyecto se requiere tener instalado:
+Para levantar y ejecutar el proyecto se requiere tener instalado:
 
 - JAVA JDK 8
 - Versión reciente de Maven (probado con la versión 3.6.3)
@@ -25,9 +25,9 @@ Por lo tanto, para levantar y ejecutar el proyecto se requiere tener instalado:
 
 ## Compilación
 
-El proyecto se compila ejecutando los siguientes comando dentro de la ruta del proyecto:
+El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del proyecto:
 
-1) npm install
+1) npm install (sólo la primera vez)
 2) npm run build
 3) mvn clean install -U -DskipTests
 
