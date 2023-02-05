@@ -37,7 +37,7 @@ El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del 
 
 - Nombres
 - Apellido
-- Selección Pais
+- Pais
  
 2) Se debe implementar una nueva pantalla que despliegue el listado de personas con botones y/o acciones para eliminar, crear y editar una persona
 3) La solicitud de los datos de creación y edición se debe realizar en una pantalla modal.  
