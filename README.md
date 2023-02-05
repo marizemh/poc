@@ -33,12 +33,15 @@ El proyecto se compila ejecutando los siguientes comando dentro de la ruta del p
 
 # Enunciado
 
-1) Se debe implementar nuevos endpoints en la API REST existente que permitan listar, registrar, editar y eliminar el recurso de persona
-2) Se debe implementar una pantalla de listado, ingreso y edición del concepto de persona. Los atributos son:
+1) Se debe implementar nuevos endpoints en la API REST existente que permitan listar, registrar, editar y eliminar el recurso de persona. Este recurso consta de los siguientes atributos:
+
 - Nombres
 - Apellido
 - Pais
-3) Se debe mantener la arquitectura existente, creando construcciones análogas a las ya existentes.
+ 
+2) Se debe implementar una nueva pantalla que despliegue el listado de personas con botones y/o acciones para eliminar, crear y editar una persona
+3) La solicitud de los datos de creación y edición se debe realizar en una pantalla modal.  
+4) Se debe mantener la arquitectura existente, creando construcciones análogas y nuevos artefactos sólo por necesidad.
 
 
 
