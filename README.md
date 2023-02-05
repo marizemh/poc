@@ -14,7 +14,7 @@ Se utilizan las siguientes tecnologías y bibliotecas:
 - Bootstrap (4.6) y Datatables (https://datatables.net/)
 - Gestión de dependencias mediante npm
 
-## Requisitos de compilación
+## Requisitos de instalación
 
 Para levantar y ejecutar el proyecto se requiere tener instalado:
 
@@ -23,7 +23,7 @@ Para levantar y ejecutar el proyecto se requiere tener instalado:
 - Versión reciente de Node (probado con la versión 19.6.0)
 - IDE de desarrollo de su preferencia.
 
-## Compilación
+## Instrucciones de compilación
 
 El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del proyecto:
 
