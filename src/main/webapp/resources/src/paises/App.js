@@ -5,7 +5,7 @@ export default class App {
     constructor(config) {
         this.api = new Api(config);
 
-        this.paises = new Paises(config);
+        this.paises = new Paises({ idTablaPaises: 'paises', api: this.api, ...config });
 
         this.renderPaises().catch(error => {
             alert("Ha ocurrido un error"); // TODO: mejorar
@@ -20,8 +20,6 @@ export default class App {
             return error;
         }
     }
-
-
 }
 
 globalThis.app = new App(config);

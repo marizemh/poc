@@ -1,6 +1,11 @@
 export default class Api {
     constructor(config) {
+        this.context = config.context;
         this.baseEndpoint = `${config.context}/rest/paises`;
+    }
+
+    getContext() {
+        return this.context;
     }
 
     #getBaseEndPoint() {

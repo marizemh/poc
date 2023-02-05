@@ -1,13 +1,17 @@
 export default class Paises {
     constructor(config) {
         this.api = config.api;
+        this.idTablaPaises = config.idTablaPaises
     }
 
     render(paises) {
-        this.tablaPaises = $("#paises").dataTable({
+        this.tablaPaises = $(`#${this.idTablaPaises}`).dataTable({
             data: paises,
-            autoWidth: false,
+            autoWidth: true,
             responsive: true,
+            language: {
+                url: `${this.api.getContext()}/DataTables/i18n/es-CL.json`,
+            },
             columns: [
                 {
                     data: "id",

@@ -7,14 +7,13 @@
         <title>POF SGO</title>
 
         <link rel="stylesheet" type="text/css" th:href="@{/bootstrap-4.6.2-dist/css/bootstrap.min.css}" >
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.css">
+        <link rel="stylesheet" type="text/css" th:href="@{/DataTables/datatables.min.css}"/>
 
         <script type="text/javascript" th:src="@{/jquery-3.6.3.min.js}"></script>
         <script type="text/javascript" th:src="@{/bootstrap-4.6.2-dist/js/bootstrap.min.js}"></script>
         <script type="text/javascript" th:src="@{/paises/app.bundle.js}" defer></script>
 
-        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.js"></script>
-
+        <script type="text/javascript" th:src="@{/DataTables/datatables.min.js}"></script>
     </head>
 
     <body>
@@ -22,23 +21,18 @@
             <div class="card">
                 <h5 class="card-header">Paises</h5>
                 <div class="card-body">
-                    <table id="paises">
+                    <table id="paises" class="display">
                         <thead>
                             <tr>
                                 <th>Id</th>
                                 <th>Nombre</th>
-                            </th>
+                            </tr>
                         </thead>
-                        <tbody>
-
-                        </tbody>
                     </table>
                     <button type="button" class="btn btn-primary">Primary</button>
                 </div>
             </div>
         </div>
-
-
     </body>
 
     <script>
