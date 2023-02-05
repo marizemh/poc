@@ -33,6 +33,7 @@ build/
 .vscode/
 
 /node_modules
+/node
 /.mvn/wrapper/maven-wrapper.jar
 /src/main/resources/static/paises/*
 
