@@ -33,11 +33,13 @@ El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del 
 
 # Enunciado
 
-1) Se debe implementar nuevos endpoints en la API REST existente que permitan listar, registrar, editar y eliminar el recurso de persona. Este recurso consta de los siguientes atributos:
+1) Se debe implementar nuevos endpoints en la API REST existente que permitan listar, registrar, editar y eliminar el recurso de persona. Este recurso consta de los siguientes atributos y debe ser persistido en memoria a través de la BD H2 ya configurada en el proyecto.
 
 - Nombres
 - Apellido
 - Pais
+
+
  
 2) Se debe implementar una nueva pantalla que despliegue el listado de personas con botones y/o acciones para eliminar, crear y editar una persona
 3) La solicitud de los datos de creación y edición se debe realizar en una pantalla modal.  
