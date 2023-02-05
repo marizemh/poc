@@ -38,7 +38,7 @@ El proyecto se compila ejecutando los siguientes comando dentro de la ruta del p
 - Nombres
 - Apellido
 - Pais
-
+3) Se debe mantener la arquitectura existente, creando construcciones análogas a las ya existentes.
 
 
 
