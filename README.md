@@ -43,7 +43,7 @@ Apuntar navegador a http://localhost:8080/paises
 
 # Enunciado prueba
 
-1) Se debe implementar nuevos endpoints en la API REST existente que permitan listar, registrar, editar y eliminar un nuevo recurso: <b>persona</b>. La idea es apoyarse en las tecnologías ya existentes en la POC. El recurso persona debe constar de los siguientes atributos:
+1) Se debe implementar <b>nuevos endpoints en la API REST existente</b> que permitan listar, registrar, editar y eliminar un nuevo recurso: <b>persona</b>. La idea es apoyarse en las tecnologías ya existentes en la POC. El recurso persona debe constar de los siguientes atributos:
 
 - Nombres
 - Apellido
