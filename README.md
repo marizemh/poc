@@ -43,13 +43,13 @@ Apuntar navegador a http://localhost:8080/paises
 
 # Enunciado prueba
 
-1) Se debe descargar la POC e implementar sobre ella <b>nuevos endpoints en la API REST existente</b> que permita listar, registrar, editar y eliminar un nuevo recurso: <b>persona</b>. La idea es apoyarse en las tecnologías ya existentes en la POC. El recurso persona debe constar de los siguientes atributos:
+1) Se debe descargar la POC e implementar sobre ella <b>nuevos endpoints en la API REST existente</b> que permita listar, registrar, editar y eliminar un nuevo recurso: <b>persona</b>. El recurso persona debe constar de los siguientes atributos:
 
 - Nombres
 - Apellido
 - Pais
 
->En concreto, debe crearse la tabla persona en el ddl de la POC: <code>/src/main/resources/schema.sql</code> junto con las construcciones necesarias para operar sobre ella bajo una arquitectura REST 
+>En concreto, debe crearse la tabla persona en el ddl de la POC: <code>/src/main/resources/schema.sql</code> junto con las construcciones necesarias para operar sobre ella bajo una arquitectura REST (<code>@RestController</code> y construcciones de acceso a BD)
  
 2) Se debe implementar una <b>nueva pantalla</b> que despliegue el listado de personas con botones y/o acciones para eliminar, crear y editar una persona. Esta pantalla opera conectándose a los recursos REST de la API. La solicitud de los datos de creación y edición se debe realizar en una pantalla modal. La idea es nuevamente apoyarse en las tecnologías ya existentes en la POC. 
 
