@@ -28,14 +28,14 @@ Para compilar y ejecutar el proyecto se requiere tener instalado:
 El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del proyecto:
 
 1) <code>npm install</code> (sólo la primera vez)
-2) npm run build
-3) mvn clean install -U -DskipTests
+2) <code>npm run build</code>
+3) <code>mvn clean install -U -DskipTests</code>
 
 ## Instrucciones de ejecución
 
 Dentro de las múltiples formas de ejecutar el proyecto, resaltamos la siguiente: desde la línea de comandos ejecutar:
 
-mvn spring-boot:run
+<code>mvn spring-boot:run</code>
 
 ## Acceso al POC
 
