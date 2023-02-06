@@ -4,11 +4,11 @@ En el presente repositorio se incluye una POC que implementa un listado de paise
 
 Se utilizan las siguientes tecnologías y bibliotecas:
 
-## Backend 
+<b>Backend</b> 
 - JAVA 8, Spring Boot, Mybatis, H2 (motor de base de datos, utilizado en este caso en formato "embedded")
 - Gestión de dependencias utilizando Maven.
 
-## Frontend
+<b>Frontend</b>
 - Thymeleaf, 
 - HTML5, CSS y ES6 
 - Bootstrap (4.6) y Datatables (https://datatables.net/)
@@ -16,7 +16,7 @@ Se utilizan las siguientes tecnologías y bibliotecas:
 
 ## Requisitos de instalación
 
-Para levantar y ejecutar el proyecto se requiere tener instalado:
+Para compilar y ejecutar el proyecto se requiere tener instalado:
 
 - JAVA JDK 8
 - Versión reciente de Maven (probado con la versión 3.6.3)
@@ -30,6 +30,12 @@ El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del 
 1) npm install (sólo la primera vez)
 2) npm run build
 3) mvn clean install -U -DskipTests
+
+## Instrucciones de ejecución
+
+Dentro de las múltiples formas de ejecutar el proyecto, resaltamos la siguiente: desde la línea de comandos ejecutar:
+
+mvn spring-boot:run
 
 ## Acceso al POC
 
