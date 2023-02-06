@@ -53,7 +53,7 @@ En concreto, debe crearse la tabla persona en el ddl de la POC: <code>/src/main/
  
 2) Se debe implementar una <b>nueva pantalla</b> que despliegue el listado de personas con botones y/o acciones para eliminar, crear y editar una persona. Esta pantalla opera conectándose a los recursos REST de la API. La solicitud de los datos de creación y edición se debe realizar en una pantalla modal. La idea es nuevamente apoyarse en las tecnologías ya existentes en la POC. 
 
-4) Se debe mantener la arquitectura existente, creando construcciones análogas (por ejemplo un @RestController de persona).
+4) Se debe mantener la arquitectura existente, creando construcciones análogas (por ejemplo un <code>@RestController</code> de persona).
 
 5) Se debe respetar el look & feel existente
 
