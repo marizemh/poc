@@ -49,9 +49,9 @@ Apuntar navegador a http://localhost:8080/paises
 - Apellido
 - Pais
 
-En concreto, debe crearse la tabla persona en el ddl de la POC: <code>/src/main/resources/schema.sql</code> y las construcciones necesarias para operar sobre ella bajo una arquitectura REST 
+En concreto, debe crearse la tabla persona en el ddl de la POC: <code>/src/main/resources/schema.sql</code> junto con las construcciones necesarias para operar sobre ella bajo una arquitectura REST 
  
-2) Se debe implementar una nueva pantalla que despliegue el listado de personas con botones y/o acciones para eliminar, crear y editar una persona. Esta pantalla opera conectándose a los recursos REST de la API. La solicitud de los datos de creación y edición se debe realizar en una pantalla modal. La idea es nuevamente apoyarse en las tecnologías ya existentes en la POC. 
+2) Se debe implementar una <b>nueva pantalla</b> que despliegue el listado de personas con botones y/o acciones para eliminar, crear y editar una persona. Esta pantalla opera conectándose a los recursos REST de la API. La solicitud de los datos de creación y edición se debe realizar en una pantalla modal. La idea es nuevamente apoyarse en las tecnologías ya existentes en la POC. 
 
 4) Se debe mantener la arquitectura existente, creando construcciones análogas (por ejemplo un @RestController de persona).
 
