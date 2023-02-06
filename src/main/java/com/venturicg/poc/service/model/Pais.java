@@ -1,4 +1,4 @@
-package com.venturicg.pof.service.model;
+package com.venturicg.poc.service.model;
 
 import java.io.Serializable;
 

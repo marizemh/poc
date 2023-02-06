@@ -1,4 +1,4 @@
-package com.venturicg.pof.web.dto;
+package com.venturicg.poc.web.dto;
 
 import java.io.Serializable;
 

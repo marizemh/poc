@@ -1,7 +1,7 @@
-package com.venturicg.pof;
+package com.venturicg.poc;
 
 //@SpringBootTest
-class PofApplicationTests {
+class PocApplicationTests {
 
 	//@Test
 	void contextLoads() {

@@ -1,6 +1,6 @@
-package com.venturicg.pof.repository;
+package com.venturicg.poc.repository;
 
-import com.venturicg.pof.service.model.Pais;
+import com.venturicg.poc.service.model.Pais;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

@@ -1,8 +1,8 @@
-package com.venturicg.pof.service.impl;
+package com.venturicg.poc.service.impl;
 
-import com.venturicg.pof.repository.PaisDAO;
-import com.venturicg.pof.service.PaisesService;
-import com.venturicg.pof.service.model.Pais;
+import com.venturicg.poc.repository.PaisDAO;
+import com.venturicg.poc.service.PaisesService;
+import com.venturicg.poc.service.model.Pais;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

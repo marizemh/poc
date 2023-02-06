@@ -1,7 +1,7 @@
-package com.venturicg.pof.service;
+package com.venturicg.poc.service;
 
 
-import com.venturicg.pof.service.model.Pais;
+import com.venturicg.poc.service.model.Pais;
 
 import java.util.List;
 

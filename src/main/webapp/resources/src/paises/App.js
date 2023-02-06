@@ -1,5 +1,6 @@
 import Api from "./Api";
 import Paises from "./Paises";
+import { showError } from "../commons/Utils";
 
 export default class App {
     constructor(config) {
@@ -7,18 +8,17 @@ export default class App {
 
         this.paises = new Paises({ idTablaPaises: 'paises', api: this.api, ...config });
 
-        this.renderPaises().catch(error => {
-            alert("Ha ocurrido un error"); // TODO: mejorar
-        });
+        this.renderPaises();
     }
 
-    async renderPaises() {
-        try {
-            const paises = await this.api.obtenerPaises();
-            this.paises.render(paises);
-        } catch (error) {
-            return error;
-        }
+    renderPaises() {
+        this.api.obtenerPaises()
+            .then(paises => {
+                this.paises.render(paises);
+            })
+            .catch (error => {
+                showError(error);
+            });
     }
 }
 

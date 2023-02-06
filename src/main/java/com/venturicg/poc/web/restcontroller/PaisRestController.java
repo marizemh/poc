@@ -1,7 +1,7 @@
-package com.venturicg.pof.web.restcontroller;
+package com.venturicg.poc.web.restcontroller;
 
-import com.venturicg.pof.service.PaisesService;
-import com.venturicg.pof.web.dto.PaisDTO;
+import com.venturicg.poc.service.PaisesService;
+import com.venturicg.poc.web.dto.PaisDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
