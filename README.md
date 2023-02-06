@@ -59,6 +59,8 @@ Apuntar navegador a http://localhost:8080/paises
 
 5) Se debe respetar el look & feel existente
 
+6) Por favor compartir el resultado (código fuente) en el repositorio personal del postulante.
+
 
 
 
