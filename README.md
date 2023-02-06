@@ -27,7 +27,7 @@ Para compilar y ejecutar el proyecto se requiere tener instalado:
 
 El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del proyecto:
 
-1) npm install (sólo la primera vez)
+1) <code>npm install</code> (sólo la primera vez)
 2) npm run build
 3) mvn clean install -U -DskipTests
 
