@@ -2,7 +2,7 @@ import BaseApi from "../commons/BaseApi";
 
 export default class Api extends BaseApi {
     constructor(config) {
-        super(config)
+        super(config);
         this.baseEndpoint = `${config.context}/rest/paises`;
     }
 
@@ -12,8 +12,6 @@ export default class Api extends BaseApi {
 
     obtenerPaises() {
         const url = this.#getBaseEndPoint();
-        return this.get(url);
+        return Api.get(url);
     }
-
-
 }

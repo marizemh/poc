@@ -7,41 +7,41 @@ export default class BaseApi {
         return this.context;
     }
 
-    get(url) {
-        const params = this.#getBaseParamsUrlOrObject(url, "GET");
+    static get(url) {
+        const params = BaseApi.#getBaseParamsUrlOrObject(url, "GET");
         params.cache = false;
         return $.ajax(params);
     }
 
-    post(input) {
-        return $.ajax(this.#getBaseParams(input, "POST"));
+    static post(input) {
+        return $.ajax(BaseApi.#getBaseParams(input, "POST"));
     }
 
-    patch(input) {
-        return $.ajax(this.#getBaseParams(input, "PATCH"));
+    static patch(input) {
+        return $.ajax(BaseApi.#getBaseParams(input, "PATCH"));
     }
 
-    put(input) {
-        return $.ajax(this.#getBaseParams(input, "PUT"));
+    static put(input) {
+        return $.ajax(BaseApi.#getBaseParams(input, "PUT"));
     }
 
-    delete(urlOrObject) {
-        const settings = this.#getBaseParamsUrlOrObject(urlOrObject, "DELETE");
+    static delete(urlOrObject) {
+        const settings = BaseApi.#getBaseParamsUrlOrObject(urlOrObject, "DELETE");
         return $.ajax(settings);
     }
 
-    #getBaseParamsUrlOrObject(input, type) {
+    static #getBaseParamsUrlOrObject(input, type) {
         let params = {};
         if (typeof input === 'string') {
             params.url = input;
             params.type = type;
         } else {
-            params = this.#getBaseParams(input, type);
+            params = BaseApi.#getBaseParams(input, type);
         }
         return params;
     }
 
-    #getBaseParams(input, type) {
+    static #getBaseParams(input, type) {
         const params = {
             url: input.url,
             Headers: { Accept: 'application/json' },

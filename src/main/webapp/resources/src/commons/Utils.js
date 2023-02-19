@@ -9,4 +9,4 @@ export const showError = error => {
     }
     document.getElementById("modalMessageContent").textContent = msgError;
     $('#modalMessage').modal('show');
-}
+};

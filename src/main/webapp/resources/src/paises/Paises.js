@@ -1,11 +1,15 @@
+import DataTable from 'datatables.net';
+import 'datatables.net-dt/css/jquery.dataTables.min.css';
+import $ from "jquery";
+
 export default class Paises {
     constructor(config) {
         this.api = config.api;
-        this.idTablaPaises = config.idTablaPaises
+        this.idTablaPaises = config.idTablaPaises;
     }
 
     render(paises) {
-        this.tablaPaises = $(`#${this.idTablaPaises}`).dataTable({
+        this.tablaPaises = new DataTable(`#${this.idTablaPaises}`, {
             data: paises,
             autoWidth: true,
             responsive: true,
@@ -15,15 +19,11 @@ export default class Paises {
             columns: [
                 {
                     data: "id",
-                    render: (data, type, row) => {
-                        return data;
-                    }
+                    render: (data, type, row) => data
                 },
                 {
                     data: "nombre",
-                    render: (data, type, row) => {
-                        return data;
-                    }
+                    render: (data, type, row) => data
                 }
             ],
             dom: '<"datatable-header"fl><"datatable-scroll-wrap"t><"datatable-footer"ip>'
