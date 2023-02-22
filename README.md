@@ -48,7 +48,7 @@ Apuntar navegador a http://localhost:8080/paises
 1) Se debe descargar la POC e implementar sobre ella <b>nuevos endpoints en la API REST existente</b> que permita listar, registrar, editar y eliminar un nuevo recurso: <b>persona</b>. El recurso persona debe constar de los siguientes atributos:
 
 - Nombres
-- Apellido
+- Apellidos
 - Pais
 
 >En concreto, debe crearse la tabla persona en el ddl de la POC: <code>/src/main/resources/schema.sql</code> junto con las construcciones necesarias para operar sobre ella bajo una arquitectura REST (<code>@RestController</code> y construcciones de acceso a BD)
