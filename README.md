@@ -35,7 +35,7 @@ El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del 
 
 ## Instrucciones de ejecución
 
-Dentro de las múltiples formas de ejecutar el proyecto, resaltamos la siguiente: desde la línea de comandos ejecutar:
+De las múltiples formas de ejecutar el proyecto, resaltamos la siguiente: desde la línea de comandos ejecutar:
 
 <code>mvn spring-boot:run</code>
 
@@ -63,7 +63,13 @@ Apuntar navegador a http://localhost:8080/paises
 
 6) Por favor compartir el resultado (código fuente) en el repositorio personal del postulante.
 
+# Pauta de evaluación
 
+Se medirá:
+
+1) Funcionamiento de la aplicación
+2) Calidad del código
+3) Uso de la arquitectura ya definida
 
 
 
