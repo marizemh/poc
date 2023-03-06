@@ -31,6 +31,8 @@ El proyecto se compila ejecutando los siguientes comandos dentro de la ruta del 
 2) <code>npm run build</code>
 3) <code>mvn clean install -U -DskipTests</code>
 
+>En algunos ambientes windows, la ejecución de <code>npm run build</code> puede fallar (pues no siempre la ejecución de programas javascript está asociado a node). Aquí se detalla un hilo que indica un workaround: https://github.com/javascriptair/site/issues/98
+
 ## Instrucciones de ejecución
 
 Dentro de las múltiples formas de ejecutar el proyecto, resaltamos la siguiente: desde la línea de comandos ejecutar:
@@ -46,7 +48,7 @@ Apuntar navegador a http://localhost:8080/paises
 1) Se debe descargar la POC e implementar sobre ella <b>nuevos endpoints en la API REST existente</b> que permita listar, registrar, editar y eliminar un nuevo recurso: <b>persona</b>. El recurso persona debe constar de los siguientes atributos:
 
 - Nombres
-- Apellido
+- Apellidos
 - Pais
 
 >En concreto, debe crearse la tabla persona en el ddl de la POC: <code>/src/main/resources/schema.sql</code> junto con las construcciones necesarias para operar sobre ella bajo una arquitectura REST (<code>@RestController</code> y construcciones de acceso a BD)
